@@ -1,5 +1,5 @@
-from llm_client import LLMClient
-from prompts import precision_prompt, recall_prompt
+from utils.llm_client import LLMClient
+from utils.prompts import precision_prompt, recall_prompt
 
 
 class RetrievalEvaluation:

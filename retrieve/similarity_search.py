@@ -2,8 +2,8 @@ import json
 import re
 from pathlib import Path
 
-from llm_client import LLMClient
-from config import test_corpus_path
+from utils.llm_client import LLMClient
+from utils.config import test_corpus_path
 TOP_K = 3
 
 _STOPWORDS = {"이", "가", "은", "는", "을", "를", "의", "에", "에서", "로", "으로", "와", "과", "도", "만", "어떻게", "어떤", "알려줘", "알려주세요", "어디", "뭐야", "뭔가요", "인가요", "하면", "되나요", "해야", "있어", "있나요"}

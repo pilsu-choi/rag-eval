@@ -1,5 +1,5 @@
-from llm_client import LLMClient
-from prompts import faithfulness_prompt, factual_correctness_prompt
+from utils.llm_client import LLMClient
+from utils.prompts import faithfulness_prompt, factual_correctness_prompt
 
 
 class GenerationEvaluation:
