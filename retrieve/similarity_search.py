@@ -1,16 +1,47 @@
 import json
 import re
-from pathlib import Path
 
+from schema.keyword_search_response import KeywordSearchRequest, TotalSearchResponse
 from utils.llm_client import LLMClient
-from utils.config import test_corpus_path
+from utils.config import SERVER_URL, test_rag_pipeline_corpus_path
+import requests
+
 TOP_K = 3
 
-_STOPWORDS = {"이", "가", "은", "는", "을", "를", "의", "에", "에서", "로", "으로", "와", "과", "도", "만", "어떻게", "어떤", "알려줘", "알려주세요", "어디", "뭐야", "뭔가요", "인가요", "하면", "되나요", "해야", "있어", "있나요"}
+_STOPWORDS = {
+    "이",
+    "가",
+    "은",
+    "는",
+    "을",
+    "를",
+    "의",
+    "에",
+    "에서",
+    "로",
+    "으로",
+    "와",
+    "과",
+    "도",
+    "만",
+    "어떻게",
+    "어떤",
+    "알려줘",
+    "알려주세요",
+    "어디",
+    "뭐야",
+    "뭔가요",
+    "인가요",
+    "하면",
+    "되나요",
+    "해야",
+    "있어",
+    "있나요",
+}
 
 
 def _load_corpus() -> list[dict]:
-    with open(test_corpus_path, "r", encoding="utf-8") as f:
+    with open(test_rag_pipeline_corpus_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -39,7 +70,9 @@ def _regex_search(question: str, corpus: list[dict], top_k: int = TOP_K) -> list
     return matched[:top_k] if matched else [content for _, content in scored[:top_k]]
 
 
-async def _generate_answer(question: str, retrieved_docs: list[str], llm: LLMClient) -> str:
+async def _generate_answer(
+    question: str, retrieved_docs: list[str], llm: LLMClient
+) -> str:
     docs_text = "\n".join(f"- {doc}" for doc in retrieved_docs)
     prompt = f"""다음 문서들을 참고하여 질문에 간결하게 답하세요. 문서에 없는 내용은 답하지 마세요.
 
@@ -52,6 +85,7 @@ async def _generate_answer(question: str, retrieved_docs: list[str], llm: LLMCli
     return await llm.invoke(prompt)
 
 
+# TODO: rag_request 참고해서 검색 api 호출 수정. 현재는 임시 데이터로 검색 테스트 진행중.
 async def similarity_search(question: str, llm: LLMClient = None) -> dict:
     corpus = _load_corpus()
     retrieved_docs = _regex_search(question, corpus)
@@ -64,3 +98,17 @@ async def similarity_search(question: str, llm: LLMClient = None) -> dict:
         "retrieved_docs": retrieved_docs,
         "generated_answer": generated_answer,
     }
+
+
+async def rag_request(question: str) -> dict:
+    RAG_END_POINT = f"{SERVER_URL}/rag"
+    body = KeywordSearchRequest(
+        query=question,
+        search_type="AI",
+        page=1,
+        page_size=10,
+        result_type=None,
+    ).model_dump()
+    response = requests.post(RAG_END_POINT, json=body)
+    response.raise_for_status()
+    return TotalSearchResponse.model_validate_json(response.json())
