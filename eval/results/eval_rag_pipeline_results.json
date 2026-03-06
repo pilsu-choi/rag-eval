@@ -1,0 +1,442 @@
+[
+    {
+        "idx": "100128653-v1_testcases-0",
+        "question": "이 규정의 목적은 무엇인가?",
+        "ground_truth": [
+            "이 규정은 한국표준과학연구원의 제반업무에 관한 전결사항과 그 절차를 정하여 효율적인 업무수행을 기함을 목적으로 한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "이 규정의 목적은 직원 채용 과정의 절차와 기준을 명확히 하여 공정하고 투명한 선발을 보장하는 것이다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 0.5,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "검색된 문서들 중에서 주어진 정답과 관련된 문서는 없기 때문에 정확도가 0%입니다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth에 포함된 정보가 전혀 포함되어 있지 않으므로, recall은 0이다.",
+        "generation_faithfulness_reason": "답변의 주장은 직원 채용 과정의 절차와 기준을 명확히 하여 공정하고 투명한 선발을 보장한다는 내용인데, retrieved_docs에는 절차에 대한 구체적인 내용이 있으므로 부분적으로 지지된다.",
+        "generation_factual_correctness_reason": "답변은 직원 채용 과정에 관한 것이며, 규정의 목적과 관련된 내용과 일치하지 않는다."
+    },
+    {
+        "idx": "100128653-v1_testcases-1",
+        "question": "전결권자는 누구누구로 구분되는가?",
+        "ground_truth": [
+            "전결권자는 부원장, 본부장 또는 부장 또는 소장, 센터장, 단장, 그룹장 또는 실장으로 구분한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 전결권자에 대한 내용이 없습니다. 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에 ground_truth와 관련된 내용이 없기 때문에 적절한 문서가 발견되지 않았다.",
+        "retrieval_recall_reason": "retrieved_docs에는 전결권자에 대한 정보가 포함되어 있지 않아 ground_truth 항목을 커버하지 못했다.",
+        "generation_faithfulness_reason": "답변은 전결권자에 대한 내용을 문서에서 찾을 수 없다고 명시하고 있으며, 이는 문서의 내용과 일치하므로 충실합니다.",
+        "generation_factual_correctness_reason": "답변은 전결권자에 대한 내용이 없다고 하여, 실제 전결권자의 정의와 전혀 일치하지 않는다."
+    },
+    {
+        "idx": "100128653-v1_testcases-2",
+        "question": "제4조에 명시된 공통위임전결사항은 무엇과 같은가?",
+        "ground_truth": [
+            "공통위임전결사항은 별표 제1호와 같다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 제4조에 대한 내용이 없으므로 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에는 ground_truth와 관련된 내용이 전혀 없으므로 정밀도가 0.0이다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth에 명시된 내용이 포함되어 있지 않습니다.",
+        "generation_faithfulness_reason": "답변은 제4조에 대한 언급이 없음에 따라 정확하게 문서의 내용과 일치하며, 따라서 신뢰성을 갖는다.",
+        "generation_factual_correctness_reason": "답변은 제4조에 대한 정보를 제공하지 않으며, 주어진 사실과 일치하는 내용을 포함하지 않기 때문에 정확하지 않습니다."
+    },
+    {
+        "idx": "100128653-v1_testcases-3",
+        "question": "감사부장에게 전결권이 있는 사항은 무엇이고, 그 처리과정에서 유의해야 하는 점은 무엇인가?",
+        "ground_truth": [
+            "감사부장은 분장업무에 대하여 전결권을 가지나, 중요한 사항은 원장에게 보고하여야 한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 감사부장에 대한 전결권이나 처리과정에서 유의해야 할 점에 대한 내용은 포함되어 있지 않습니다. 따라서 해당 질문에 대한 답변을 제공할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 0.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "회수된 문서들은 감사부장과 전결권 관련 내용이 없고, 모두 채용과 관련된 사항이므로 관련성이 없다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth에서 요구된 감사부장의 전결권 및 처리과정에 대한 정보가 포함되어 있지 않음.",
+        "generation_faithfulness_reason": "답변에서 감사부장에 대한 전결권과 유의사항이 포함되어 있지 않다고 하였으나, retrieved_docs에는 해당 내용이 전혀 포함되어 있지 않기 때문에 지원되는 주장도 없고, 따라서 신뢰성 점수는 0입니다.",
+        "generation_factual_correctness_reason": "답변은 전결권에 대한 정보를 포함하지 않고 있으며, ground_truth와의 일치하는 주장이 없습니다."
+    },
+    {
+        "idx": "100128653-v1_testcases-4",
+        "question": "각 부서의 위임전결사항 적용에 예외가 되는 것은 무엇인가?",
+        "ground_truth": [
+            "연구원의 전결사항은 별도의 규정이 있는 것을 제외하고는 이 규정에 의한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 해당 내용이 없으므로 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에는 ground_truth와 관련된 문서가 포함되어 있지 않으므로, 관련 문서의 수가 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs에서는 ground_truth에 해당하는 내용을 포함하고 있지 않기 때문에 재현되지 않았다.",
+        "generation_faithfulness_reason": "답변은 문서에 명시된 내용을 바탕으로 답변할 수 없다고 하여 신뢰성이 있습니다.",
+        "generation_factual_correctness_reason": "답변에 포함된 내용은 질문에 대한 직접적인 해답이 아니며, 주어진 사실과도 일치하지 않습니다."
+    },
+    {
+        "idx": "100128653-v1_testcases-5",
+        "question": "전결권자가 상위전결권자에게 사전 협의가 필요한 경우는 무엇인가?",
+        "ground_truth": [
+            "전결사항 중 타부서와 관련되는 사항은 해당 부서와 협의하여야 하며, 협의가 되지 않는 경우에는 상위전결권자의 결재를 받아야 한다."
+        ],
+        "retrieved_docs": [
+            "제6조 제3항: 재택근무는 팀장의 사전 승인을 받은 경우에 한해 허용되며, 주 2회를 초과할 수 없다."
+        ],
+        "generated_answer": "문서에 해당 내용이 포함되어 있지 않으므로 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 0.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs와 ground_truth 사이에 관련된 내용이 없어서, 관련된 문서는 0개입니다.",
+        "retrieval_recall_reason": "retrieved_docs에 포함된 내용은 전결권자와 상위전결권자 간의 사전 협의에 대한 정보가 없으며, ground_truth에 명시된 요구 사항을 충족하지 않는다.",
+        "generation_faithfulness_reason": "답변은 문서 내용과 관련이 없으며, 전결권자가 상위전결권자와의 사전 협의에 대한 정보가 포함되어 있지 않다고 주장하지만, 문서에는 사전 승인의 필요성이 언급되어 있습니다.",
+        "generation_factual_correctness_reason": "답변은 질문에 대한 직접적인 내용을 제공하지 않고, 전결권자와 상위전결권자 간의 협의 필요성에 대한 정보를 포함하지 않기 때문에 사실적으로 정확하지 않습니다."
+    },
+    {
+        "idx": "100128653-v1_testcases-6",
+        "question": "전결사항 처리 후 원장에게 보고해야 하는 중요한 사항에는 어떤 것들이 해당될 수 있는가?",
+        "ground_truth": [
+            "중요한 사항에는 연구원의 계획, 방침 등 중요사항을 제시하여야 할 경우가 포함될 수 있다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 해당 내용이 없으므로 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs는 전결사항 처리 후 원장에게 보고해야 하는 중요한 사항과 관련된 내용이 없다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth에서 제시된 중요한 사항과 관련된 내용이 포함되어 있지 않음.",
+        "generation_faithfulness_reason": "답변은 문서 내용에 기반하여, 보고해야 할 사항에 대한 정보가 없다는 주장을 하고 있어 일관성을 보인다.",
+        "generation_factual_correctness_reason": "답변에는 확인 가능한 주장이나 내용이 없으며, ground_truth와 관련된 정보가 포함되어 있지 않다."
+    },
+    {
+        "idx": "100128653-v1_testcases-7",
+        "question": "제5조에 명시된 전결사항의 특례는 어떤 경우에 적용되는가?",
+        "ground_truth": [
+            "별표 제1호 및 제2호의 전결사항이라도 전결권자는 당해 업무에 대한 전결권을 상향하여 처리할 수 있다.",
+            "특히 중요한 내용이거나 대외적으로 연구원의 계획 및 방침 등 중요사항을 제시할 경우에는 상위전결권자의 결재를 받아야 한다."
+        ],
+        "retrieved_docs": [
+            "제6조 제3항: 재택근무는 팀장의 사전 승인을 받은 경우에 한해 허용되며, 주 2회를 초과할 수 없다."
+        ],
+        "generated_answer": "문서에 해당 내용이 없으므로 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs의 내용은 질문인 '전결사항의 특례'와 관련이 없으며, ground_truth와의 관련성도 찾을 수 없다.",
+        "retrieval_recall_reason": "retrieved_docs는 ground_truth에 포함된 전결사항의 특례에 대한 정보를 포함하지 않기 때문에, 전결사항을 커버하지 못함.",
+        "generation_faithfulness_reason": "답변은 문서에 해당하는 내용을 바탕으로 한 것으로 보이며, 전결사항의 특례에 대한 정보가 없음을 정확히 전달하고 있습니다.",
+        "generation_factual_correctness_reason": "The answer states that there is no relevant information in the document, which does not match the claims outlined in the ground truth."
+    },
+    {
+        "idx": "100128653-v1_testcases-8",
+        "question": "이 규정에 따라 전결된 사항의 효력은 무엇과 같은가?",
+        "ground_truth": [
+            "이 규정에 의하여 전결된 사항은 원장이 결재한 것과 동일한 효력을 가진다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "이 규정에는 전결된 사항의 효력에 대한 내용이 포함되어 있지 않습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에는 ground_truth와 관련된 내용이 포함되어 있지 않기 때문에 정밀도는 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth에 포함된 전결된 사항의 효력에 대한 내용이 포함되어 있지 않아, 총 1개의 ground_truth 항목을 전혀 커버하지 못하였다.",
+        "generation_faithfulness_reason": "답변은 규정의 내용을 직접적으로 언급하는 대신, 전결된 사항의 효력에 대한 내용이 포함되어 있지 않다는 것을 명확히 전달하고 있으며, 이는 제공된 문서의 내용과 일치합니다.",
+        "generation_factual_correctness_reason": "답변은 전결된 사항의 효력에 대한 내용을 포함하지 않는다고 하지만, 사실관계에 따르면 전결된 사항은 원장이 결재한 것과 동일한 효력을 가진다고 명시되어 있으므로, 주장의 일치가 없다."
+    },
+    {
+        "idx": "100128653-v1_testcases-9",
+        "question": "전결권자의 책임에 대해 설명하시오.",
+        "ground_truth": [
+            "전결처리한 사항에 대하여는 그 전결권자가 원장에 대하여 책임을 진다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 전결권자의 책임에 대한 내용이 포함되어 있지 않으므로, 이에 대해 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs는 전결권자의 책임에 대한 정보와 관련이 없는 내용만 포함되어 있어, 관련된 문서가 없다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth와 관련된 내용이 포함되어 있지 않기 때문에 전결권자에 대한 책임에 대한 정보가 전혀 제공되지 않음.",
+        "generation_faithfulness_reason": "답변은 전결권자의 책임에 대한 내용을 문서에서 찾을 수 없다고 명확히 언급하고 있으며, 이는 retrieved_docs의 내용과 일치합니다.",
+        "generation_factual_correctness_reason": "답변은 전결권자의 책임에 대한 구체적인 내용을 포함하고 있지 않으며, 실제 사실과 비교할 때 전결권자가 책임을 진다는 주장을 전혀 반영하지 않으므로 맞지 않습니다."
+    },
+    {
+        "idx": "100128656-v1_testcases-0",
+        "question": "이 요령의 목적과 적용범위는 무엇인가?",
+        "ground_truth": [
+            "이 요령은 한국표준과학연구원(이하 \"연구원\"이라 한다) 인사규정 제20조에 의한 승진에 관한 사항을 정함을 목적으로 한다.",
+            "이 요령은 인사규정 제4조 제1항 및 무기계약직원 운영 및 관리요령 제4조 제1항의 직원에게 적용한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에는 이 요령의 목적과 적용범위에 대한 내용이 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에 포함된 모든 문서는 ground_truth에서 요구하는 주제와 관련이 없으므로, 적절한 문서가 한 개도 없어 정밀도가 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs does not contain any items from the ground_truth, indicating a complete lack of coverage.",
+        "generation_faithfulness_reason": "답변은 '이 요령의 목적과 적용범위에 대한 내용이 없다'라고 명확하게 진술하고 있으며, 이는 문서에서 이 정보를 찾을 수 없다는 것을 반영하고 있습니다.",
+        "generation_factual_correctness_reason": "답변이 언급한 내용은 근거 자료에 지정된 목적과 적용범위를 포함하고 있지 않기 때문에, 사실적으로 정확하지 않습니다."
+    },
+    {
+        "idx": "100128656-v1_testcases-1",
+        "question": "승진의 심사 기준에는 어떤 항목들이 있는가?",
+        "ground_truth": [
+            "근무평가",
+            "논문",
+            "실적",
+            "소속장의 의견",
+            "상벌",
+            "기타 원장이 정하는 사항"
+        ],
+        "retrieved_docs": [
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다."
+        ],
+        "generated_answer": "문서에 승진 심사 기준에 대한 내용이 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs의 내용은 승진 심사 기준과 관련이 없으며, ground_truth에 있는 항목들과 일치하지 않는다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth 항목들이 포함되어 있지 않습니다.",
+        "generation_faithfulness_reason": "답변은 문서에서 승진 심사 기준에 대한 내용이 없다고 정확하게 설명하고 있으므로, 문서의 내용과 일치합니다.",
+        "generation_factual_correctness_reason": "답변은 승진 심사 기준에 대해 아무런 정보를 제공하지 않고 명확하게 '없다'고 하므로, 실제 사실과 일치하는 주장이 없습니다."
+    },
+    {
+        "idx": "100128656-v1_testcases-2",
+        "question": "제4조에서 다루는 승진일과 심사절차에 있어 특별히 유의해야 하는 점은 무엇인가?",
+        "ground_truth": [
+            "승진은 승진대상자의 경력평정 기준일에 실시한다.",
+            "승진심사절차 및 시기는 별표 제1호에 의한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에는 제4조에 대한 내용이 포함되어 있지 않아 관련 질문에 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에는 ground_truth에 해당하는 정보가 포함되어 있지 않기 때문에 관련된 문서가 없음.",
+        "retrieval_recall_reason": "retrieved_docs에는 승진일이나 심사절차에 관한 정보가 전혀 포함되어 있지 않아서 ground_truth에 있는 항목들을 커버하지 못했다.",
+        "generation_faithfulness_reason": "답변은 제4조의 내용이 포함되어 있지 않다고 명확하게 언급하였으며, 주어진 문서들은 제4조와 관련이 없으므로 해당 답변은 전적으로 Retrieved_docs의 내용에 충실합니다.",
+        "generation_factual_correctness_reason": "답변이 제4조의 내용과 관련된 주장이나 정보가 전혀 포함되어 있지 않기 때문에 사실적으로 올바르지 않습니다."
+    },
+    {
+        "idx": "100128656-v1_testcases-3",
+        "question": "승진대상자가 되기 위한 자격에는 어떤 요건이 있는가? ",
+        "ground_truth": [
+            "승진대상자는 별표 제2호가 규정하는 자격을 갖추어야 한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 승진대상자에 대한 요건이 명시되어 있지 않아 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에는 승진대상자에 대한 구체적인 자격 요건이 포함되어 있지 않아서 관련성이 없으므로, 관련된 문서 수는 0개입니다.",
+        "retrieval_recall_reason": "retrieved_docs는 승진대상자에 대한 자격 요건을 포함하고 있지 않으며, ground_truth에 명시된 내용을 전혀 다루지 않고 있다.",
+        "generation_faithfulness_reason": "답변은 문서에 승진대상자에 대한 요건이 없다는 것을 명확히 언급하고 있으며, 이는 retrieved_docs의 내용과 일치한다.",
+        "generation_factual_correctness_reason": "답변에서 승진대상자의 요건에 대한 정보를 제공하지 않고 있어 사실 확인이 이루어지지 않았다."
+    },
+    {
+        "idx": "100128656-v1_testcases-4",
+        "question": "근무평가의 예외 기간에 해당하는 경우는 어떤 경우인가?",
+        "ground_truth": [
+            "휴직 또는 파견, 출산 등의 사유로 인사평가 대상에서 제외된 기간.",
+            "징계처분으로 인하여 승진대상에서 제외된 기간.",
+            "원장이 별도로 정하는 과제에 참여한 기간.",
+            "출산한 직원의 경우 출산연도 또는 익년도."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 해당 내용이 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "가져온 문서들은 근무평가의 예외 기간과 관련된 내용을 포함하고 있지 않아서 관련 문서 수가 0임.",
+        "retrieval_recall_reason": "retrieved_docs에 ground_truth 항목이 포함되어 있지 않아, 회수율이 0입니다.",
+        "generation_faithfulness_reason": "답변은 문서의 내용과 일치하며, 근무평가의 예외 기간에 대한 정보가 없음을 정확하게 전달하고 있습니다.",
+        "generation_factual_correctness_reason": "답변에 포함된 주장이 없으며, 주어진 ground_truth와 일치하는 내용이 전혀 없습니다."
+    },
+    {
+        "idx": "100128656-v1_testcases-5",
+        "question": "실적평가위원회의 구성과 역할은 무엇이며, 위원장이 누구인지 설명하라.",
+        "ground_truth": [
+            "실적평가위원회는 위원장 1인과 10인 이내의 위원으로 구성한다.",
+            "위원장은 인사담당 부서장이며, 위원은 원장이 임명한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에는 실적평가위원회의 구성, 역할, 위원장에 대한 내용이 없습니다. 관련된 정보를 제공할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs는 실적평가위원회와 위원장에 대한 정보가 포함되어 있지 않아서 관련성이 없다.",
+        "retrieval_recall_reason": "추출된 문서들이 실적평가위원회의 구성 및 역할과 위원장에 대한 정보를 포함하고 있지 않기 때문에, 참 값으로 간주되는 항목이 전혀 포함되어 있지 않는다.",
+        "generation_faithfulness_reason": "답변은 문서에 대한 정보가 없다는 사실을 정확하게 반영하고 있으며, 이는 전체적으로 진실성과 일치한다.",
+        "generation_factual_correctness_reason": "The answer states that no information is available about the committee's composition, role, or chairperson, which contradicts the claims in the ground truth."
+    },
+    {
+        "idx": "100128656-v1_testcases-6",
+        "question": "실적평가위원회의 의결이 유효하려면 어떤 조건을 충족해야 하는가?",
+        "ground_truth": [
+            "출석위원(위원장 포함) 2/3 이상 출석과 참석위원 2/3 이상 찬성으로 의결한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 해당 내용이 없어 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에 포함된 내용은 실적평가위원회의 의결 조건과 관련이 없으므로, 관련된 문서가 없다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth의 내용을 포함한 항목이 없기 때문에 recall이 0이다.",
+        "generation_faithfulness_reason": "답변은 문서에서 의결의 유효성에 대한 내용을 찾을 수 없다는 것을 명확히 하여, 제공된 정보에 충실합니다.",
+        "generation_factual_correctness_reason": "답변이 실적평가위원회의 의결 조건에 대한 구체적인 정보를 제공하지 않으며, 사실관계와 일치하지 않음."
+    },
+    {
+        "idx": "100128656-v1_testcases-7",
+        "question": "승진 제한 사유에 해당하는 것은 무엇인가? ",
+        "ground_truth": [
+            "징계처분 등으로 승진이 제한되는 자.",
+            "징계처분이 종료된 후 6개월의 계책 기간 동안.",
+            "감봉 : 12개월",
+            "강등·정직 : 18개월",
+            "기타 타 규정에 의해 승진이 제한되는 자.",
+            "근무평가에서 승진이 제한된 자."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에는 승진 제한 사유에 대한 내용이 없습니다. 따라서 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 0.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs는 승진 제한 사유와 관련된 정보가 전혀 없기 때문에 정밀도가 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth 항목과 관련된 내용이 포함되어 있지 않아, 일치하는 항목이 없습니다.",
+        "generation_faithfulness_reason": "답변은 승진 제한 사유에 대한 정보를 요청했지만, 반환된 문서들은 관련 내용을 포함하고 있지 않음을 언급했으나, 이는 답변의 경우의 정확한 항목이 아니다. 따라서 포함된 물증이 없다.",
+        "generation_factual_correctness_reason": "답변은 승진 제한 사유에 대한 정보가 없다고 주장하지만, 이는 사실과 다릅니다. 실제로는 다양한 승진 제한 사유가 존재합니다."
+    },
+    {
+        "idx": "100128656-v1_testcases-8",
+        "question": "근무평가 점수의 적용기준 연도는 어떻게 되는가?",
+        "ground_truth": [
+            "근무평가 점수는 2017년도 인사평가 결과부터 적용한다."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 근무평가 점수의 적용기준 연도에 대한 내용이 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 1.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "모든 검색된 문서가 근무평가 점수의 적용 기준 연도와 관련이 없기 때문에 관련 문서가 없습니다.",
+        "retrieval_recall_reason": "조회된 문서에는 근무평가 점수의 적용기준 연도에 대한 정보가 포함되지 않아, 기준이 되는 ground truth 항목이 커버되지 않았습니다.",
+        "generation_faithfulness_reason": "답변은 문서에서 근무평가 점수의 적용기준 연도에 대한 정보가 없다는 주장을 하며, 이는 문서의 내용과 일치하므로 신뢰성이 높다.",
+        "generation_factual_correctness_reason": "답변은 근무평가 점수의 적용기준 연도에 대한 내용이 없다고 명시했지만, 사실은 2017년도부터 적용된다는 점이 ground_truth에 명시되어 있음."
+    },
+    {
+        "idx": "100128656-v1_testcases-9",
+        "question": "이 요령에 따라 회복된 승진자격이 적용되는 예외 상황은 어떤 것인가?",
+        "ground_truth": [
+            "원장이 별도로 정한 과제 등으로 승진제한이 해제되는 경우.",
+            "징계처분이 무효 또는 취소된 경우.",
+            "노동위원회의 결정 등에 따라 승진 제한이 무효 또는 취소되었을 때."
+        ],
+        "retrieved_docs": [
+            "제5조 제1항: 회사는 공개 채용 또는 수시 채용을 통해 직원을 선발한다.",
+            "제5조 제2항: 채용 지원자는 서류 심사, 필기 시험, 면접 전형을 순서대로 통과하여야 한다.",
+            "제5조 제3항: 최종 합격자는 신체검사 결과 이상이 없을 경우 채용을 확정한다."
+        ],
+        "generated_answer": "문서에 해당 내용이 없어 답변할 수 없습니다.",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 0.0,
+        "generation_factual_correctness": 0.0,
+        "retrieval_precision_reason": "retrieved_docs에는 ground_truth와 관련된 문서가 없기 때문에 정확도가 0%이다.",
+        "retrieval_recall_reason": "retrieved_docs와 ground_truth 간에 일치하는 항목이 없기 때문에, 회복된 승진 자격의 예외 상황을 다루고 있지 않음.",
+        "generation_faithfulness_reason": "답변은 retrieved_docs에 해당하는 내용이 없음을 확인했지만, 질문에 대한 정보를 제공하지 않으므로 주장을 뒷받침할 수 없다.",
+        "generation_factual_correctness_reason": "답변에서 언급된 내용이 지상 진실에 포함된 정보와 일치하지 않기 때문에 사실적으로 정확하지 않음."
+    },
+    {
+        "idx": "average",
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": 0.775,
+        "generation_factual_correctness": 0.0
+    }
+]

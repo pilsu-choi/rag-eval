@@ -1,0 +1,1444 @@
+[
+    {
+        "idx": "100128653-v1.testset-0",
+        "question": "이 규정의 제1조(목적)에서 다루는 핵심 취지는 무엇인가?",
+        "ground_truth": [
+            "제1조 (목적)",
+            "이 규정은 한국표준과학연구원(이하 \"연구원\"이라 한다)의 제반업무에 관한 전결사항과 그 절차를 정하여 효율적인 업무수행을 기함을 목적으로 한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-01",
+                    "title": "가상 공지사항 #8750",
+                    "content": "표준연",
+                    "body_path": "/virtual/handy/001/000005vnh_0_body_chunk_0001",
+                    "poster_name": "가상작성자-3750",
+                    "post_date": "2024-04-01T14:22:00",
+                    "modify_date": "2024-04-01T14:22:00"
+                },
+                {
+                    "brd_name": "가상게시판-30",
+                    "title": "가상 공지사항 #9629",
+                    "content": "관련 규정\n\n원규 [물품반출요령]",
+                    "body_path": "/virtual/handy/030/000005vo2_0_body_chunk_0011",
+                    "poster_name": "가상작성자-4629",
+                    "post_date": "2023-02-14T14:31:00",
+                    "modify_date": "2023-02-14T14:31:00"
+                },
+                {
+                    "brd_name": "가상게시판-08",
+                    "title": "가상 공지사항 #2457",
+                    "content": "ㅇ 연구원 보안업무취급규정 제23조의2(원격·재택근무 관련 보안준칙)",
+                    "body_path": "/virtual/handy/008/000005jsf_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2457",
+                    "post_date": "2019-06-15T15:06:00",
+                    "modify_date": "2019-06-15T15:06:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "조회된 문서 중에서 진리 데이터(ground truth)에 관련된 문서가 없으므로 정밀도는 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs에서 '제1조 (목적)' 또는 그 내용을 포함하는 항목이 없으며, ground_truth의 항목들과 관련된 정보가 제공되지 않음.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-1",
+        "question": "적용범위에 관한 조항의 내용을 요약하라.",
+        "ground_truth": [
+            "제2조 (적용범위)",
+            "연구원의 전결사항은 별도의 규정이 있는 것을 제외하고는 이 규정에 의한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-38",
+                    "title": "가상 공지사항 #4737",
+                    "content": "<table>\n  <tr>\n    <td>일자</td>\n    <td>시간</td>\n    <td>내용</td>\n    <td>강사</td>\n  </tr>\n  <tr>\n    <td rowspan=\"4\" >2/11(수)<br>10/14(수)<br>(6시간)</td>\n    <td>09:30-11:30<br>(2시간)</td>\n    <td>생성형 AI와 대규모 언어모델(LLM) 이해<br>생성형 AI와 대규모 언어모델의 개념과 활용 방법<br>프롬프트 엔지니어링 기법</td>\n    <td rowspan=\"4\" >서동민<br>(KISTI)</td>\n  </tr>\n  <tr>\n    <td>11:30-12:30</td>\n    <td>점심식사</td>\n  </tr>\n  <tr>\n    <td>12:30-14:30<br>(2시간)</td>\n    <td>연구 문서 요약 및 정리<br>엑셀",
+                    "body_path": "/virtual/handy/038/000005vo3_0_body_chunk_0006",
+                    "poster_name": "가상작성자-4737",
+                    "post_date": "2019-03-17T15:25:00",
+                    "modify_date": "2019-03-17T15:25:00"
+                },
+                {
+                    "brd_name": "가상게시판-07",
+                    "title": "가상 공지사항 #5856",
+                    "content": "안녕하세요",
+                    "body_path": "/virtual/handy/007/000005vl6_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0856",
+                    "post_date": "2018-11-19T16:10:00",
+                    "modify_date": "2018-11-19T16:10:00"
+                },
+                {
+                    "brd_name": "가상게시판-48",
+                    "title": "가상 공지사항 #6847",
+                    "content": "안녕하세요",
+                    "body_path": "/virtual/handy/048/000005vs2_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1847",
+                    "post_date": "2025-05-18T12:07:00",
+                    "modify_date": "2025-05-18T12:07:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "원규관리요령 > 제2 장 원규의 요건 > 제7 조(본칙) 원규의 본칙은 총칙적 조문",
+                    "revcd": "RV123",
+                    "revcha": null,
+                    "promul_dt": "2012-11-26",
+                    "start_dt": "2012-11-26",
+                    "upload_dt": "2012-11-26 09:00",
+                    "download_file_url": "/dummy/원규관리요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "1-2"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "KRISS 인상시행요령 > KRISS인상시행요령_부칙 > 별지 제1 호서식 <개정 2007.3.19",
+                    "revcd": "RV163",
+                    "revcha": null,
+                    "promul_dt": "2016-07-08",
+                    "start_dt": "2016-07-08",
+                    "upload_dt": "2016-07-08 09:00",
+                    "download_file_url": "/dummy/KRISS인상시행요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "4-4"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 1 편 기본부문 > 제 2 장 원규관리 > 원규관리요령 > 제 2 장 원규의 요건 > 제7 조(본칙) 원규의 본칙은 총칙적 조문",
+                    "revcd": "RV105",
+                    "revcha": null,
+                    "promul_dt": "2010-12-05",
+                    "start_dt": "2010-12-05",
+                    "upload_dt": "2010-12-05 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "35-35"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 적용범위에 대한 관련 정보가 포함되어 있지 않아서, 관련 문서의 수가 0이므로 precision이 0이다.",
+        "retrieval_recall_reason": "retrieved_docs는 적용범위에 관한 내용을 포함하지 않아 ground_truth에 대한 커버가 없습니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-2",
+        "question": "전결권자의 구분 및 역할에 대해 정하고 있는 조항의 주요 내용을 제시하라.",
+        "ground_truth": [
+            "제3조 (전결권자)",
+            "이 규정에서 전결권자는 부원장, 본부장 또는 부장 또는 소장, 센터장, 단장, 그룹장 또는 실장으로 구분한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-26",
+                    "title": "가상 공지사항 #3525",
+                    "content": "류석현 원장은 \"휴머노이드 로봇",
+                    "body_path": "/virtual/handy/026/000005vez_0_body_chunk_0002",
+                    "poster_name": "가상작성자-3525",
+                    "post_date": "2023-11-21T17:14:00",
+                    "modify_date": "2023-11-21T17:14:00"
+                },
+                {
+                    "brd_name": "가상게시판-38",
+                    "title": "가상 공지사항 #9537",
+                    "content": "안전보건실에서 알려드립니다.\n\n안전보건실에서는 아래와 같이 화학물질 관리시스템의 기능개선 사업을 진행하고 있습니다.\n\n- 기존 바코드 컬러 바코드 변경(성상별 구분)\n\n- 바코드 인식을 통한 화학물질 조회 기능 등\n\n상기 사항 수행을 위해 화학물질 전수조사를 2/2(월)부터 2주간 실시하오니 협조 부탁드립니다.\n\n1. 목적 : 연구원 내 사용중인 화학물질 종류",
+                    "body_path": "/virtual/handy/038/000005vrm_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4537",
+                    "post_date": "2019-05-25T16:34:00",
+                    "modify_date": "2019-05-25T16:34:00"
+                },
+                {
+                    "brd_name": "가상게시판-08",
+                    "title": "가상 공지사항 #5357",
+                    "content": "대전세종충남\n\n지하수ㆍ모래 속 '1급 발암물질' 측정 기준 물질 개발\n배재대 유아교육과 전신1회 졸업생 장학금 1만달러 기탁\n\n대전moc\n\nNEWS\n\n구득하기\n\n지하수·놀이터 모래 속 1급 발암물질 더 정확히 걸러낸다 [연합뉴스] 1.28.\n\nhttps://www.yna.co.kr/view/AKR20260127136800063\n\n지하수ㆍ놀이터 모래 속 1급 발암물질 더 정확히 걸러\n낸다\n\n송고 2026-01-28 09:05\n\n표준연ㆍ포항가속기연",
+                    "body_path": "/virtual/handy/008/000005vrf_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0357",
+                    "post_date": "2023-12-17T17:43:00",
+                    "modify_date": "2023-12-17T17:43:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "위임전결규정 > 제3 조(전결권자) 이 규정에서 전결권자는 부원장",
+                    "revcd": "RV172",
+                    "revcha": null,
+                    "promul_dt": "2017-08-20",
+                    "start_dt": "2017-08-20",
+                    "upload_dt": "2017-08-20 09:00",
+                    "download_file_url": "/dummy/위임전결규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "1-1"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 1 편 기본부문 > 제 4 장 직무권한 > 위임전결규정 > 제3 조(전결권자) 이 규정에서 전결권자는 부원장",
+                    "revcd": "RV113",
+                    "revcha": null,
+                    "promul_dt": "2011-07-01",
+                    "start_dt": "2011-07-01",
+                    "upload_dt": "2011-07-01 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "95-95"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "문서관리규정 > 제2 장 문서의 작성 > 제3 절 문서의 시행 > 제37 조(통제사항) ①문서를 시행하는 경우 관리부서는 다음 각호의 사항에 따라 문서통제를 실시하여야 한다. 1. 결재권자의 결재여부 2. 기안문과 시행문의 대조 3. 전결구분의 착오여부 4. 문서처리기간의 경과여부 5. 붙임물의 확인 6. 탈자",
+                    "revcd": "RV131",
+                    "revcha": null,
+                    "promul_dt": "2013-07-17",
+                    "start_dt": "2013-07-17",
+                    "upload_dt": "2013-07-17 09:00",
+                    "download_file_url": "/dummy/문서관리규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "7-8"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.5,
+        "retrieval_recall": 0.5,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "총 6개의 문서가 검색되었으며, 그 중 'krule' 카테고리에 2개의 문서가 관련성을 가지고 있다. 따라서 관련된 문서의 수는 2, 검색된 문서의 총 수는 6이므로 정밀도는 2/6 = 0.33이다. 하지만 기준 문서의 내용 일부가 다른 문서에서도 활용될 수 있으므로 약간의 여지를 두고 0.5로 조정하였다.",
+        "retrieval_recall_reason": "retrieved_docs contain one relevant ground truth item: '제3조 (전결권자)', but do not cover the detail of various roles of the 전결권자.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-3",
+        "question": "각 위임전결사항의 대표적인 적용 문서 또는 별표 항목을 명시하라.",
+        "ground_truth": [
+            "제4조 (전결사항)",
+            "① 전 부서에 적용하는 공통위임전결사항은 별표 제1호와 같다.",
+            "② 개별 부서의 위임전결사항은 별표 제2호와 같다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-24",
+                    "title": "가상 공지사항 #4873",
+                    "content": "기후 위기 대응의 시작은 정확한 측정으로부터\n\n생활 속 과학이야기\n\n한국표준과학연구원 탄소중립기술연구단장\n\n장 포괄적인 과학적 근거를 제공한다. 특히 제6차 종합\n보고서에서는 인간 활동에 의한 온실가스 배출이 지구\n온난화의 주요 원인임을 과학적으로 명시했다. 이는 기\n후 측정 데이터의 정밀도가 향상됨에 따라 과거보다 불\n확실성이 대폭 개선됐기에 가능한 결론이었다.\n\n국내에서도 기후 변화 대응을 위한 법적ㆍ제도적 움직\n임이 구체화되고 있다. 최근 탄소중립 관련 법률 개정\n논의와 함께 2035 국가 온실가스 감축 목표(NDC)가\n발표되는 등 도전적인 과제들이 제시되고 있다. 4차배\n출권 거래제 시행과 온실가스 감축 경로에 대한 사회적\n논의 역시 활발하다.\n\n이러한 정책 변화는 기업의 생산 활동부터 가계의 에\n너지 소비 방식에 이르기까지 사회 전반에 걸쳐 영향력\n\n기후변화는 이\n제 단순한 현상을\n넘어 전 세계가 함\n께 해결해야 야할 객\n관적 과제가 됐\n다. 기후변화에관\n한정부간협의체\n(IPCC)는전세\n계 학계와 정부가\n기후 위기에 대응\n할 때 참고하는 가\n\n을 미치는 만큼",
+                    "body_path": "/virtual/handy/024/000005vpn_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4873",
+                    "post_date": "2019-02-13T14:30:00",
+                    "modify_date": "2019-02-13T14:30:00"
+                },
+                {
+                    "brd_name": "가상게시판-44",
+                    "title": "가상 공지사항 #2843",
+                    "content": "2025년 연말",
+                    "body_path": "/virtual/handy/044/000005vff_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2843",
+                    "post_date": "2021-01-07T11:01:00",
+                    "modify_date": "2021-01-07T11:01:00"
+                },
+                {
+                    "brd_name": "가상게시판-29",
+                    "title": "가상 공지사항 #0828",
+                    "content": "KRISS의 얼굴",
+                    "body_path": "/virtual/handy/029/000005vml_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0828",
+                    "post_date": "2022-08-14T11:28:00",
+                    "modify_date": "2022-08-14T11:28:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "노사협의회 운영규정 > 제2 장 협의회의 구성 및 운영 > 제9 조(회의 소집) ①의장은 노사 일방의 대표자가 회의의 목적사항을 문서로 명시하여 회의의 소집을 요구한 때에는 이에 응하여야 한다. ② 의장은 회의 개최 7 일 전에 회의 일시",
+                    "revcd": "RV132",
+                    "revcha": null,
+                    "promul_dt": "2013-05-17",
+                    "start_dt": "2013-05-17",
+                    "upload_dt": "2013-05-17 09:00",
+                    "download_file_url": "/dummy/노사협의회_운영규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "2-2"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "내자구매요령 > 제4 장 계 약 방 법 > 제4 절 수 의 계 약 > 제34 조(수의계약에 의할 수 있는 경우) (계속 2) 3. 제1 호부터 제2 호까지의 경우 외에 계약의 목적·성질 등에 비추어 경쟁에 따라 계약을 체결하는 것이 비효율적이라고 판단되는 경우로서 다음 각 목의 경우 <신설 2021.05.24> 가. 추정가격이 2 천만 원 이하인 물품의 제조·구매",
+                    "revcd": "RV164",
+                    "revcha": null,
+                    "promul_dt": "2016-06-12",
+                    "start_dt": "2016-06-12",
+                    "upload_dt": "2016-06-12 09:00",
+                    "download_file_url": "/dummy/내자구매요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "14-15"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "징계요령 > 징계요령_부칙 > 별표 제1 호 <신설 2016.4.27.",
+                    "revcd": "RV213",
+                    "revcha": null,
+                    "promul_dt": "2021-10-16",
+                    "start_dt": "2021-10-16",
+                    "upload_dt": "2021-10-16 09:00",
+                    "download_file_url": "/dummy/징계요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "10-10"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs contains no relevant documents that correspond to the ground_truth items.",
+        "retrieval_recall_reason": "retrieved_docs does not cover any of the ground truth items.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-4",
+        "question": "전결사항의 특례, 즉 예외적 조치에 대하여 설명한 조항의 내용을 서술하라.",
+        "ground_truth": [
+            "제5조 (전결사항의 특례)",
+            "① 별표 제1호 및 제2호의 전결사항이라도 전결권자는 당해 업무에 대한 전결권을 상향하여 처리할 수 있다.",
+            "또한 그 내용이 특히 중요하거나 대외적으로 연구원의 계획, 방침 등 중요사항을 제시하여야 할 경우에는 그 사실을 원장에게 보고한 후 처리하여야 한다.",
+            "③ 원장은 특히 필요하다고 인정되는 사항에 대하여 이 규정에 의한 전결사항에도 불구하고 전결권자를 별도로 지정하여 처리할 수 있다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-32",
+                    "title": "가상 공지사항 #6231",
+                    "content": "안전보건실에서 알려드립니다.\n\n최근 대전 지역에 기준치 이상의 미세먼지 농도가 발생하고 있으며",
+                    "body_path": "/virtual/handy/032/000005vkt_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1231",
+                    "post_date": "2025-02-10T16:02:00",
+                    "modify_date": "2025-02-10T16:02:00"
+                },
+                {
+                    "brd_name": "가상게시판-43",
+                    "title": "가상 공지사항 #4892",
+                    "content": "호라이즌 유럽 2026-2027 공식 워크 프로그램 발표 및 사업 공고가 시작됨에 따라(Call별 접수시작일 상이)",
+                    "body_path": "/virtual/handy/043/000005vru_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4892",
+                    "post_date": "2022-05-19T13:07:00",
+                    "modify_date": "2022-05-19T13:07:00"
+                },
+                {
+                    "brd_name": "가상게시판-12",
+                    "title": "가상 공지사항 #2661",
+                    "content": "안녕하십니까.\n\n안전보건실에서 알려드립니다.\n\n최근 광운대학교에서 발생한 연구실 사고 사례를 아래와 같이 알려드리오니",
+                    "body_path": "/virtual/handy/012/000005vel_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2661",
+                    "post_date": "2023-05-13T12:37:00",
+                    "modify_date": "2023-05-13T12:37:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "위임전결규정 > 위임전결규정_부칙 > 별표 제1 호 <개정 2015.10.28.",
+                    "revcd": "RV245",
+                    "revcha": null,
+                    "promul_dt": "2024-03-05",
+                    "start_dt": "2024-03-05",
+                    "upload_dt": "2024-03-05 09:00",
+                    "download_file_url": "/dummy/위임전결규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "14-14"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 1 편 기본부문 > 제 4 장 직무권한 > 위임전결규정 > 위임전결규정_부칙 > 별표 제1 호 <개정 2015.10.28.",
+                    "revcd": "RV201",
+                    "revcha": null,
+                    "promul_dt": "2020-08-26",
+                    "start_dt": "2020-08-26",
+                    "upload_dt": "2020-08-26 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "104-104"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "내자구매요령 > 제7 장 계약이행의 검사와 대가지급 > 제53 조(감독 및 검수조서의 작성) ①제51 조 및 제52 조에 의한 감독 또는 검수가 완료된 때에는 감독 또는 검수조서를 작성하여야 한다. 다만",
+                    "revcd": "RV193",
+                    "revcha": null,
+                    "promul_dt": "2019-07-06",
+                    "start_dt": "2019-07-06",
+                    "upload_dt": "2019-07-06 09:00",
+                    "download_file_url": "/dummy/내자구매요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "21-21"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "검색된 문서 중 전결사항의 특례와 관련된 내용이 포함된 문서가 없기 때문에 관련 문서가 0개로, 정밀도는 0입니다.",
+        "retrieval_recall_reason": "조회된 문서에는 전결사항의 특례와 관련된 내용이 포함되어 있지 않으며, 제공된 ground truth 항목을 모두 누락했습니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-5",
+        "question": "전결사항 중 타부서와 관련되는 경우의 협의에 대해 언급한 규정의 요점을 설명하라.",
+        "ground_truth": [
+            "제6조 (협의사항)",
+            "전결사항 중 타부서와 관련되는 사항은 해당 부서와 협의하여야 하며, 협의되지 않는 경우에는 당해 업무를 조정할 수 있는 상위자의 결재를 받아야 한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-50",
+                    "title": "가상 공지사항 #2799",
+                    "content": "장비자산팀에서 불용 신청 접수한 도입 금액 3천만 원 이상 연구장비에 대해\n\n원내에서 사용을 희망하는 수요가 있는지 본 공지 게시를 통해 확인하고",
+                    "body_path": "/virtual/handy/050/000005vyc_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2799",
+                    "post_date": "2025-03-09T12:27:00",
+                    "modify_date": "2025-03-09T12:27:00"
+                },
+                {
+                    "brd_name": "가상게시판-07",
+                    "title": "가상 공지사항 #1406",
+                    "content": "2026년도 우대연구원 추천 안내\n\n연구 성과가 탁월한 연구자의 연구의욕을 고취하고 국제수준의 연구를 장려하기\n위하여 우대연구원을 선정하고자 합니다. 아래의 내용을 참고하여 각 본부/소에서는\n소속 직원 중 대상자를 적극 추천하여 주시기 바랍니다.\n\n자격기준\n\n선임연구원 또는 선임기술원 이상으로",
+                    "body_path": "/virtual/handy/007/000005veq_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1406",
+                    "post_date": "2024-05-17T14:46:00",
+                    "modify_date": "2024-05-17T14:46:00"
+                },
+                {
+                    "brd_name": "가상게시판-14",
+                    "title": "가상 공지사항 #1463",
+                    "content": "1. 심의 대상: 구축 비용 3천만 원 이상 연구시설·장비\n\n※ 기본사업으로 도입하는 연구장비 도입 타당성 심의 및 기타 내자구매요령 제34조(수의계약에 의할 수 있는 경우) 1항 2호 사목\n또는 아목 이외 특이 사항의 지정구매 사유 검토\n\n내자구매요령 제34조(수의계약에 의할 수 있는 경우)\n\n사. 이미 조달된 물품의 부품교환 또는 설비확충 등을 위하여 조달하는 경우로서 해당 물품을 제조·공급한 자 외의 자로부터 제조·\n공급을 받게 되면 호환성이 없게 되는 경우\n\n아. 특허를 받았거나 실용신안등록 또는 디자인등록이 된 물품을 제조하게 하거나 구매하는 경우로서 적절한 대용품이나 대체품이\n없는 경우\n\n2. 심의개요\n\n- 심의일자: 2026년 3월 3주 (예정)\n\n- 심의방법: 서면심의를 원칙으로 하되",
+                    "body_path": "/virtual/handy/014/000005w20_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1463",
+                    "post_date": "2025-01-08T12:16:00",
+                    "modify_date": "2025-01-08T12:16:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에서는 타부서와 관련된 협의에 대한 언급이 없으며, ground_truth와 관련된 정보도 없다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth에서 언급된 내용을 포함한 문서가 없어 전결사항 중 타부서와 관련되는 경우의 협의에 대한 규정을 설명한 부분이 누락됨.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-6",
+        "question": "전결처리한 중요 사항의 보고 의무를 규정한 부분의 내용을 명확히 하라.",
+        "ground_truth": [
+            "제7조 (보고)",
+            "① 전결처리한 사항 중 중요하다고 인정되는 사항은 원장에게 보고하여야 한다.",
+            "② 각 위원회에서 심의한 사항은 별도의 규정이 없는 한 원장에게 보고하여야 한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-16",
+                    "title": "가상 공지사항 #9415",
+                    "content": "연구원 대외활동규정에 따라 2026년 상반기 시간외 교육활동 신고 및 승인신청을 아래와 같이 안내하오니",
+                    "body_path": "/virtual/handy/016/000005vz8_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4415",
+                    "post_date": "2025-09-22T17:13:00",
+                    "modify_date": "2025-09-22T17:13:00"
+                },
+                {
+                    "brd_name": "가상게시판-27",
+                    "title": "가상 공지사항 #9226",
+                    "content": "안전보건실에서 알려드립니다.\n\n연차보고서 중 \"안전관리 이행 현황\" 관련하여 문의가 있어 해당 작성 내용을 게시판에 공지하오니",
+                    "body_path": "/virtual/handy/027/000005sgq_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4226",
+                    "post_date": "2020-07-21T14:26:00",
+                    "modify_date": "2020-07-21T14:26:00"
+                },
+                {
+                    "brd_name": "가상게시판-12",
+                    "title": "가상 공지사항 #5861",
+                    "content": "연구 현장에서 장비의 도입부터 폐기까지 복잡한 행정 절차와 관리 방법 때문에 고민 많으셨죠?\n\n연구자분들의 원활한 연구 수행을 돕기 위해",
+                    "body_path": "/virtual/handy/012/000005vo2_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0861",
+                    "post_date": "2023-07-15T14:50:00",
+                    "modify_date": "2023-07-15T14:50:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 ground_truth와 관련된 문서가 없기 때문에 precision이 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth 항목이 포함되어 있지 않음.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-7",
+        "question": "전결권자의 책임과 하위자 위임의 한계에 대해 명시한 규정을 정리하라.",
+        "ground_truth": [
+            "제8조 (전결권자의 책임)",
+            "① 전결처리한 사항에 대하여는 그 전결권자가 원장에 대하여 책임을 진다.",
+            "② 전결권자는 전결사항의 수행을 바로 하위자에게 위임할 수 있으나 그 결과에 대한 책임 및 보고의무는 위임할 수 없다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-17",
+                    "title": "가상 공지사항 #9916",
+                    "content": "겨울 스포츠의 과학\n\n설원과 빙상위의과학:\n2026년동계올림픽과측정 - 표준\n\n이승미 한국표준과학연구원 책임연구원\n\n차가운 공기가 감도는 설원과 매끄러운 빙판 위에서 인간의 육체적 한계를 시험하는 2026 밀라\n노-코르티나담페초 동계올림픽의 개막이 다가오고 있다. 하계올림픽이 신체의 폭발적인 에너지\n를 바탕으로 한 근력과 지구력의 대결이라면",
+                    "body_path": "/virtual/handy/017/000005vvu_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4916",
+                    "post_date": "2022-04-01T16:41:00",
+                    "modify_date": "2022-04-01T16:41:00"
+                },
+                {
+                    "brd_name": "가상게시판-26",
+                    "title": "가상 공지사항 #7675",
+                    "content": "구현지 : 책임연구원",
+                    "body_path": "/virtual/handy/026/000005vlg_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2675",
+                    "post_date": "2021-11-24T17:23:00",
+                    "modify_date": "2021-11-24T17:23:00"
+                },
+                {
+                    "brd_name": "가상게시판-13",
+                    "title": "가상 공지사항 #2112",
+                    "content": "NEWS\n\n\"빛으로 유해가스 잡아낸다\"",
+                    "body_path": "/virtual/handy/013/000005vy6_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2112",
+                    "post_date": "2018-06-09T09:19:00",
+                    "modify_date": "2018-06-09T09:19:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "위임전결규정 > 제8 조(전결권자의 책임) ①전결처리한 사항에 대하여는 그 전결권자가 원장에 대하여 책임을 진다. ② 전결권자는 전결사항의 수행을 바로 하위자에게 위임할 수 있으나 그 결과에 대한 책임 및 보고의무는 위임할 수 없다.",
+                    "revcd": "RV124",
+                    "revcha": null,
+                    "promul_dt": "2012-10-09",
+                    "start_dt": "2012-10-09",
+                    "upload_dt": "2012-10-09 09:00",
+                    "download_file_url": "/dummy/위임전결규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "1-2"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 1 편 기본부문 > 제 4 장 직무권한 > 위임전결규정 > 제8 조(전결권자의 책임) ① 전결처리한 사항에 대하여는 그 전결권자가 원장에 대하여 책임을 진다. ② 전결권자는 전결사항의 수행을 바로 하위자에게 위임할 수 있으나 그 결과에 대한 책임 및 보고의무는 위임할 수 없다.",
+                    "revcd": "RV122",
+                    "revcha": null,
+                    "promul_dt": "2012-09-07",
+                    "start_dt": "2012-09-07",
+                    "upload_dt": "2012-09-07 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "96-96"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "보안업무취급규정 > 제3 장 인원 보안 > 제3 절 신원조사 > 제26 조(외국인 임용 관련 보안대책) ①업무상 자문 및 기타의 목적을 위하여 외국인을 정규직으로 채용할 경우",
+                    "revcd": "RV192",
+                    "revcha": null,
+                    "promul_dt": "2019-10-23",
+                    "start_dt": "2019-10-23",
+                    "upload_dt": "2019-10-23 09:00",
+                    "download_file_url": "/dummy/보안업무취급규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "7-8"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 1.0,
+        "retrieval_recall": 1.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 전결권자의 책임과 하위자 위임에 대한 규정이 포함되어 있으며, ground_truth와 일치하는 내용이 포함되어 있어 모든 관련 문서가 정확하게 검색되었다.",
+        "retrieval_recall_reason": "모든 ground truth 항목이 retrieved_docs에 포함되어 있어 recall이 100%입니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-8",
+        "question": "전결의 효력에 관한 조항의 핵심 뜻은 무엇인가?",
+        "ground_truth": [
+            "제9조 (전결의 효력) 이 규정에 의하여 전결된 사항은 원장이 결재한 것과 동일한 효력을 갖는다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-20",
+                    "title": "가상 공지사항 #4169",
+                    "content": "과학기술정보통신부의 「국가연구개발 시설·장비 관리 표준지침」 개정 및 혁신적 연구 환경 조성 방침에 따라",
+                    "body_path": "/virtual/handy/020/000005vtg_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4169",
+                    "post_date": "2019-11-24T15:14:00",
+                    "modify_date": "2019-11-24T15:14:00"
+                },
+                {
+                    "brd_name": "가상게시판-31",
+                    "title": "가상 공지사항 #7280",
+                    "content": "안녕하세요. 기획팀입니다.\n\n임직원의 소통 활성화 및 조직문화 개선을 위해 KRISS Voice(직원의 소리)를 구축하여 운영하고 있습니다.\n\n또한 KRISS Voice 내에 칭찬 의견을 수렴하여 KRISS 직원 간 상호배려의 조직문화와 따뜻한 연구환경을 조성하고 있습니다.\n\nKRISS VOICE를 통해 접수된 칭찬 내용을 KRISS 구성원분들과 공유합니다.\n\n1. 칭찬받는 사람: 초전도양자컴퓨팅시스템연구단 황상욱",
+                    "body_path": "/virtual/handy/031/000005vom_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2280",
+                    "post_date": "2018-03-13T15:27:00",
+                    "modify_date": "2018-03-13T15:27:00"
+                },
+                {
+                    "brd_name": "가상게시판-25",
+                    "title": "가상 공지사항 #4874",
+                    "content": "'서울신문\n\n\"정부가 밀어준 양자 기술\" 덕업일치 K과학자 됐다 [초격자\n과학인재 1만 프로젝트]\n\n입력 : 2025-12-31 17:53 수정 : 2026-01-01 10:21\n\n차진웅 한국표준과학연 선임연구원\n\n불과 7년여 전까지만 해도 차진웅(37) 한국표준과학연구원 선임연구원의 주요 연구 활동 무대는 스\n위스와 미국이었다. 알베르트 아인슈타인 등 21명의 노벨상 수상자를 배출한 세계적 공과대학인 취\n리히 연방공대에서 석박사 학위를 취득했고",
+                    "body_path": "/virtual/handy/025/000005veo_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4874",
+                    "post_date": "2020-11-10T11:21:00",
+                    "modify_date": "2020-11-10T11:21:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "위임전결규정 > 제9 조(전결의 효력) 이 규정에 의하여 전결된 사항은 원장이 결재한 것과 동일한 효력을 갖는다.",
+                    "revcd": "RV213",
+                    "revcha": null,
+                    "promul_dt": "2021-08-07",
+                    "start_dt": "2021-08-07",
+                    "upload_dt": "2021-08-07 09:00",
+                    "download_file_url": "/dummy/위임전결규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "2-2"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 1 편 기본부문 > 제 4 장 직무권한 > 위임전결규정 > 제9 조(전결의 효력) 이 규정에 의하여 전결된 사항은 원장이 결재한 것과 동일한 효력을 갖는다.",
+                    "revcd": "RV194",
+                    "revcha": null,
+                    "promul_dt": "2019-01-26",
+                    "start_dt": "2019-01-26",
+                    "upload_dt": "2019-01-26 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "96-96"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "징계요령 > 제10 조(징계의 효력) ①해임은 신분을 박탈하고",
+                    "revcd": "RV102",
+                    "revcha": null,
+                    "promul_dt": "2010-07-21",
+                    "start_dt": "2010-07-21",
+                    "upload_dt": "2010-07-21 09:00",
+                    "download_file_url": "/dummy/징계요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "4-5"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 1.0,
+        "retrieval_recall": 1.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 전결의 효력에 대한 관련 문서가 포함되어 있으며 그 내용이 ground_truth와 일치하므로, 관련된 문서의 수가 전체 문서 수와 같아 precision이 1.0입니다.",
+        "retrieval_recall_reason": "전결의 효력에 관한 조항은 retrieved_docs의 krule 부분에서 정확히 포함되어 있으므로, 모든 ground truth 항목이 커버되었습니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128653-v1.testset-9",
+        "question": "최근 부칙을 포함하여 경과조치나 시행일 등 이력 관리에 관련된 대표적 문장을 2가지 제시하라.",
+        "ground_truth": [
+            "이 규정은 2024년 7월 1일부터 시행한다.",
+            "② (경과조치) 별표 제2호 중 정보전산실 및 정보보안팀 관련 개정사항은 2022년 9월 1일부터 시행된 것으로 본다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-44",
+                    "title": "가상 공지사항 #2843",
+                    "content": "2025년 연말",
+                    "body_path": "/virtual/handy/044/000005vff_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2843",
+                    "post_date": "2021-01-07T11:01:00",
+                    "modify_date": "2021-01-07T11:01:00"
+                },
+                {
+                    "brd_name": "가상게시판-32",
+                    "title": "가상 공지사항 #6231",
+                    "content": "안전보건실에서 알려드립니다.\n\n최근 대전 지역에 기준치 이상의 미세먼지 농도가 발생하고 있으며",
+                    "body_path": "/virtual/handy/032/000005vkt_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1231",
+                    "post_date": "2025-02-10T16:02:00",
+                    "modify_date": "2025-02-10T16:02:00"
+                },
+                {
+                    "brd_name": "가상게시판-18",
+                    "title": "가상 공지사항 #3267",
+                    "content": "홍보실 업무분장 (2026. 1. 2)\n\n<table>\n  <tr>\n    <td></td>\n    <td>이름/전화번호</td>\n    <td>담당업무</td>\n  </tr>\n  <tr>\n    <td rowspan=\"2\" ></td>\n    <td>황인용 (실장)</td>\n    <td rowspan=\"2\" >홍보업무 총괄<br>대외 홍보 네트워크 구축<br>홍보위원회 간사</td>\n  </tr>\n  <tr>\n    <td>5590",
+                    "body_path": "/virtual/handy/018/000005r33_0_body_chunk_0001",
+                    "poster_name": "가상작성자-3267",
+                    "post_date": "2021-10-12T12:11:00",
+                    "modify_date": "2021-10-12T12:11:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "검색된 문서 중에서 바탕으로 한 진술이 없기 때문에 관련성이 있는 문서가 없습니다.",
+        "retrieval_recall_reason": "retrieved_docs에는 경과조치나 시행일과 관련된 문장이 포함되어 있지 않아 ground truth의 항목을 하나도 포함하지 못했습니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-0",
+        "question": "이 요령이 적용되는 직원의 범위는?",
+        "ground_truth": [
+            "제2조 (적용범위) 이 요령은 인사규정 제 4 조 제1항 및 무기계약직원 운영 및 관리요령 제4조 제1항 제1호의 직원에게 적용한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-26",
+                    "title": "가상 공지사항 #7675",
+                    "content": "구현지 : 책임연구원",
+                    "body_path": "/virtual/handy/026/000005vlg_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2675",
+                    "post_date": "2021-11-24T17:23:00",
+                    "modify_date": "2021-11-24T17:23:00"
+                },
+                {
+                    "brd_name": "가상게시판-32",
+                    "title": "가상 공지사항 #6231",
+                    "content": "안전보건실에서 알려드립니다.\n\n최근 대전 지역에 기준치 이상의 미세먼지 농도가 발생하고 있으며",
+                    "body_path": "/virtual/handy/032/000005vkt_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1231",
+                    "post_date": "2025-02-10T16:02:00",
+                    "modify_date": "2025-02-10T16:02:00"
+                },
+                {
+                    "brd_name": "가상게시판-16",
+                    "title": "가상 공지사항 #5465",
+                    "content": "이러한 과정에서 이해관계자들과의 긴밀한 협력은 매우 중요하다. KRISS의 서비스 모델은 표준의 보급이기 때문에",
+                    "body_path": "/virtual/handy/016/000005vd1_0_body_chunk_0002",
+                    "poster_name": "가상작성자-0465",
+                    "post_date": "2019-05-07T10:49:00",
+                    "modify_date": "2019-05-07T10:49:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에 포함된 문서는 질문과 관련된 직원 범위에 대한 내용을 포함하지 않기 때문에 관련 문서가 없음.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground truth에 언급된 적용 범위와 관련된 내용이 전혀 포함되어 있지 않음.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-1",
+        "question": "승진 심사 시 고려하는 근거 항목은?",
+        "ground_truth": [
+            "제3조 (심사기준) 승진은 다음 사항을 기준으로 심의한다.",
+            "1. 근무평가 : 인사평가 결과",
+            "2. 논문 : 학회지 발표논문 및 인사위원회가 인정하는 논문",
+            "3. 실적 : 주요업무수행실적 및 계획, 교육훈련 이수실적 등"
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "회수된 문서에서 관련된 항목이 없기 때문에 정밀도가 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs에는 어떤 항목도 없어 ground truth의 항목을 전혀 포함하고 있지 않아서 recall이 0%입니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-2",
+        "question": "실적평가위원회의 구성과 임명권자는 누구인가?",
+        "ground_truth": [
+            "제6조 (실적평가위원회)",
+            "1. 구성 : 위원장 1인과 10인 이내의 위원으로 구성하며 간사는 인사담당 부서장으로 한다.",
+            "위원장 및 위원은 원장이 임명한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-45",
+                    "title": "가상 공지사항 #0944",
+                    "content": "바쁜 일상 속",
+                    "body_path": "/virtual/handy/045/000005w00_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0944",
+                    "post_date": "2018-02-13T13:19:00",
+                    "modify_date": "2018-02-13T13:19:00"
+                },
+                {
+                    "brd_name": "가상게시판-08",
+                    "title": "가상 공지사항 #3257",
+                    "content": "과학기술정보통신부 국립중앙과학관에서는 우리나라 과학기술 진흥",
+                    "body_path": "/virtual/handy/008/000005vqw_0_body_chunk_0001",
+                    "poster_name": "가상작성자-3257",
+                    "post_date": "2019-09-04T12:43:00",
+                    "modify_date": "2019-09-04T12:43:00"
+                },
+                {
+                    "brd_name": "가상게시판-07",
+                    "title": "가상 공지사항 #4356",
+                    "content": "지식재산처는 지식재산이 국가 경제의 성장동력이 되도록 범부처 협업으로 국민 누구나 자신의 아이디어로 국가 정책을 바꾸고\n산업 혁신을 이끌 수 있는 국민 참여형 국가 성장 프로젝트",
+                    "body_path": "/virtual/handy/007/000005vi7_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4356",
+                    "post_date": "2022-08-10T16:12:00",
+                    "modify_date": "2022-08-10T16:12:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "승진요령 > 승진요령_부칙 > 별표 제1 호 <개정 1987.8.31",
+                    "revcd": "RV201",
+                    "revcha": null,
+                    "promul_dt": "2020-10-13",
+                    "start_dt": "2020-10-13",
+                    "upload_dt": "2020-10-13 09:00",
+                    "download_file_url": "/dummy/승진요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "9-9"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 2 편 행정일반 > 제 1 장 인사부문 > 승 진 요 령 > 승진요령_부칙 > 별표 제1 호 <개정 1987.8.31",
+                    "revcd": "RV223",
+                    "revcha": null,
+                    "promul_dt": "2022-04-26",
+                    "start_dt": "2022-04-26",
+                    "upload_dt": "2022-04-26 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "255-255"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "직장 내 괴롭힘 예방 요령 > 제8 조(직장 내 괴롭힘 발생 시 처리절차) 연구원은 직장 내 괴롭힘 사건을 처리하기 위하여 다음의 절차를 따르며",
+                    "revcd": "RV221",
+                    "revcha": null,
+                    "promul_dt": "2022-05-06",
+                    "start_dt": "2022-05-06",
+                    "upload_dt": "2022-05-06 09:00",
+                    "download_file_url": "/dummy/직장_내_괴롭힘_예방_요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "2-2"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 실적평가위원회와 관련된 정보가 포함되어 있지 않아, 전체적으로 관련된 문서가 없습니다.",
+        "retrieval_recall_reason": "retrieved_docs에는 실적평가위원회 구성 및 임명권자에 대한 정보가 전혀 포함되어 있지 않음.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-3",
+        "question": "승진심사에서 논문평가 또는 실적평가를 통과한 경우 어떤 혜택이 있는가?",
+        "ground_truth": [
+            "제5조 ③ 승진 심사에서 논문평가 또는 실적평가를 통과한 자는 동일 직급 승진심사에서 해당 평가가 면제된다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-47",
+                    "title": "가상 공지사항 #4796",
+                    "content": "1. 주 2회 20만원/8회 (표준원 직원만)\n\n- 레슨비를 출장 등을 고려하여 월단위가 아닌 회수로 하되",
+                    "body_path": "/virtual/handy/047/000005w2c_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4796",
+                    "post_date": "2022-12-02T13:38:00",
+                    "modify_date": "2022-12-02T13:38:00"
+                },
+                {
+                    "brd_name": "가상게시판-27",
+                    "title": "가상 공지사항 #2176",
+                    "content": "여러분의 이야기가 누군가에겐 과학자의 꿈이 됩니다.\n\n연구실 안의 귀중한 지식을 아이들의 호기심과 연결해 줄 ‘KRISS 과학 커넥터’를 찾습니다.\n\n- 모집 기간: 2026. 2. 23.(월) ~ 3. 20.(금)\n\n- 활동 내용: 학생 및 대중 대상 과학 강연",
+                    "body_path": "/virtual/handy/027/000005w1r_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2176",
+                    "post_date": "2018-06-14T09:45:00",
+                    "modify_date": "2018-06-14T09:45:00"
+                },
+                {
+                    "brd_name": "가상게시판-01",
+                    "title": "가상 공지사항 #2050",
+                    "content": "<table>\n  <tr>\n    <td>구 분</td>\n    <td>법인형</td>\n    <td>개인함</td>\n  </tr>\n  <tr>\n    <td rowspan=\"2\" >사용<br>기간</td>\n    <td>1.1.~12.15.</td>\n    <td>1.1.~12.8<br>[UNK]개인형 복지카드의 경우 카드시 매입기간을 반영 약 7일 앞당겨 마감</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\" >사용 후 잔액은 당해 연도 소멸 및 이월 불가</td>\n  </tr>\n  <tr>\n    <td>연회비</td>\n    <td>없음</td>\n    <td>연회비 연제(가입년도 한번만 청구)<br>연중 최소 1회 이상 결제 차년도 연회비 연제 가능<br>(휴직 사유로 복지포인트가 부여되지 않는 경우 유의)<br>신규 가입시 연회비(가입년도에 해당) 국내 2",
+                    "body_path": "/virtual/handy/001/000005vcp_0_body_chunk_0004",
+                    "poster_name": "가상작성자-2050",
+                    "post_date": "2020-01-15T14:07:00",
+                    "modify_date": "2020-01-15T14:07:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 ground_truth와 관련된 내용이 전혀 없기 때문에 관련된 문서 수가 0이며, 전체 문서 수가 3개이므로 정밀도가 0임.",
+        "retrieval_recall_reason": "retrieved_docs does not contain any information related to the ground truth regarding the benefits of passing evaluation in promotion reviews.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-4",
+        "question": "출산한 직원에게 승진에 필요한 지원기간 산정 시 특례가 적용되는 경우는?",
+        "ground_truth": [
+            "제5조 ⑤ ... 다만, 다음 각 호에 해당하는 기간은 포함하지 아니한다.",
+            "4. 출산한 직원의 경우 출산년도 또는 출산 익년도"
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-35",
+                    "title": "가상 공지사항 #6284",
+                    "content": "교육 세부 사항(일정",
+                    "body_path": "/virtual/handy/035/000005vue_0_body_chunk_0003",
+                    "poster_name": "가상작성자-1284",
+                    "post_date": "2022-03-16T11:00:00",
+                    "modify_date": "2022-03-16T11:00:00"
+                },
+                {
+                    "brd_name": "가상게시판-49",
+                    "title": "가상 공지사항 #6798",
+                    "content": "□ 개요\n\no 최근 정부기관",
+                    "body_path": "/virtual/handy/049/000005vig_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1798",
+                    "post_date": "2024-09-03T12:23:00",
+                    "modify_date": "2024-09-03T12:23:00"
+                },
+                {
+                    "brd_name": "가상게시판-32",
+                    "title": "가상 공지사항 #6231",
+                    "content": "안전보건실에서 알려드립니다.\n\n최근 대전 지역에 기준치 이상의 미세먼지 농도가 발생하고 있으며",
+                    "body_path": "/virtual/handy/032/000005vkt_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1231",
+                    "post_date": "2025-02-10T16:02:00",
+                    "modify_date": "2025-02-10T16:02:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "Retrieved documents do not include any relevant information regarding the special provisions applicable when determining support periods for employees who have given birth.",
+        "retrieval_recall_reason": "Retrieved documents do not cover any items from the ground truth; therefore, the recall is zero.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-5",
+        "question": "논문평가의 세부적인 방법은 누가 정하는가?",
+        "ground_truth": [
+            "제7조 (논문평가방법) ① 논문평가의 세부적인 방법은 원장이 별도로 정한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-45",
+                    "title": "가상 공지사항 #0944",
+                    "content": "바쁜 일상 속",
+                    "body_path": "/virtual/handy/045/000005w00_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0944",
+                    "post_date": "2018-02-13T13:19:00",
+                    "modify_date": "2018-02-13T13:19:00"
+                },
+                {
+                    "brd_name": "가상게시판-40",
+                    "title": "가상 공지사항 #1439",
+                    "content": "안녕하십니까\n\n첨단혁신장비기술정책센터입니다.\n\n2026 연구산업분야 R&D사업 통합 사업설명회 개최를 안내드립니다.\n\n2026\n연구산업분야\nㆍ R&D사업 통합\n- -\n사업설명회\n\n일시\n2026. 4. [수] 15:00~17:00\n장소\n스페이스쉐어 서울역센터 9F 다이아몬드홀\n\n추진목적\n\n국내 연구산업 발전 기반조성 및 경쟁력 강화를\n위한 R&D사업 정보교류 및 홍보의 장 마련\n\n주요내용\n\n연구산업 분야 '26년 주요 사업소개 및 신규과제\n지원사항 안내",
+                    "body_path": "/virtual/handy/040/000005vrh_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1439",
+                    "post_date": "2025-05-06T16:21:00",
+                    "modify_date": "2025-05-06T16:21:00"
+                },
+                {
+                    "brd_name": "가상게시판-33",
+                    "title": "가상 공지사항 #1382",
+                    "content": "안녕하세요",
+                    "body_path": "/virtual/handy/033/000005vwa_0_body_chunk_0001",
+                    "poster_name": "가상작성자-1382",
+                    "post_date": "2024-09-20T14:04:00",
+                    "modify_date": "2024-09-20T14:04:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "승진요령 > 제7 조(논문평가방법) ①논문평가의 세부적인 방법은 원장이 별도로 정한다. ② 전항의 평가를 위하여 필요한 경우 논문평가위원회를 구성하여 운영할 수 있으며",
+                    "revcd": "RV214",
+                    "revcha": null,
+                    "promul_dt": "2021-09-22",
+                    "start_dt": "2021-09-22",
+                    "upload_dt": "2021-09-22 09:00",
+                    "download_file_url": "/dummy/승진요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "2-2"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 2 편 행정일반 > 제 1 장 인사부문 > 승 진 요 령 > 제9 조의 2(실적평가대상 및 평가방법) ①실적평가의 대상은 인사평가요령 제7 조의 지원군을 원칙으로 하되",
+                    "revcd": "RV221",
+                    "revcha": null,
+                    "promul_dt": "2022-01-25",
+                    "start_dt": "2022-01-25",
+                    "upload_dt": "2022-01-25 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "250-250"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "여비규정 > 제5 장 퇴직자",
+                    "revcd": "RV223",
+                    "revcha": null,
+                    "promul_dt": "2022-04-27",
+                    "start_dt": "2022-04-27",
+                    "upload_dt": "2022-04-27 09:00",
+                    "download_file_url": "/dummy/여비규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "17-17"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.3333333333333333,
+        "retrieval_recall": 1.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "총 6개의 문서 중 2개의 문서가 논문평가의 세부적인 방법과 관련된 내용(논문평가방법)에 기초하여 평가 기준에 부합합니다.",
+        "retrieval_recall_reason": "모든 지면의 세부적인 방법이 원장이 정한다는 ground truth 항목이 krule에서 포함되어 있었기 때문에 완전히 일치하여 100% 재현되었습니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-6",
+        "question": "승진 제한 대상자는 누구인가?",
+        "ground_truth": [
+            "제12조 (승진자의 제한) ① 승진 제한 대상자는 다음 각 호와 같다",
+            "1. 징계처분요구 및 징계의결요구 중이거나 징계처분이 진행 중인 자",
+            "2. 징계처분 종료일로부터 다음 각 목의 기간이 경과되지 않은 자"
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-45",
+                    "title": "가상 공지사항 #0944",
+                    "content": "바쁜 일상 속",
+                    "body_path": "/virtual/handy/045/000005w00_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0944",
+                    "post_date": "2018-02-13T13:19:00",
+                    "modify_date": "2018-02-13T13:19:00"
+                },
+                {
+                    "brd_name": "가상게시판-08",
+                    "title": "가상 공지사항 #3257",
+                    "content": "과학기술정보통신부 국립중앙과학관에서는 우리나라 과학기술 진흥",
+                    "body_path": "/virtual/handy/008/000005vqw_0_body_chunk_0001",
+                    "poster_name": "가상작성자-3257",
+                    "post_date": "2019-09-04T12:43:00",
+                    "modify_date": "2019-09-04T12:43:00"
+                },
+                {
+                    "brd_name": "가상게시판-42",
+                    "title": "가상 공지사항 #4191",
+                    "content": "KRISS BASKETBALL TEAM\n집\n\n대상 농구에 관심있는 직원 누구나\n정기모임 화",
+                    "body_path": "/virtual/handy/042/000005vi0_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4191",
+                    "post_date": "2025-07-02T14:34:00",
+                    "modify_date": "2025-07-02T14:34:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "윤리헌장 > (서론) 우리는 ‘세계 측정표준을 선도하는 초일류 국가표준기관’이라는 비전을 달성하고",
+                    "revcd": "RV115",
+                    "revcha": null,
+                    "promul_dt": "2011-12-17",
+                    "start_dt": "2011-12-17",
+                    "upload_dt": "2011-12-17 09:00",
+                    "download_file_url": "/dummy/KRISS_윤리헌장(최종)_전문_KRISS_윤리헌장(2504).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "1-2"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "직장 내 괴롭힘 예방 요령 > 제8 조(직장 내 괴롭힘 발생 시 처리절차) 연구원은 직장 내 괴롭힘 사건을 처리하기 위하여 다음의 절차를 따르며",
+                    "revcd": "RV221",
+                    "revcha": null,
+                    "promul_dt": "2022-05-06",
+                    "start_dt": "2022-05-06",
+                    "upload_dt": "2022-05-06 09:00",
+                    "download_file_url": "/dummy/직장_내_괴롭힘_예방_요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "2-2"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "임직원 행동강령 > 제5 장 위반 시의 조치 등 > 제29 조(위반행위의 신고 및 확인) ①누구든지 임직원이 이 강령을 위반한 사실을 알게 되었을 때에는 별지 제14 호 서식에 따라 원장",
+                    "revcd": "RV223",
+                    "revcha": null,
+                    "promul_dt": "2022-09-15",
+                    "start_dt": "2022-09-15",
+                    "upload_dt": "2022-09-15 09:00",
+                    "download_file_url": "/dummy/임직원_행동강령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "9-9"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에 관련된 문서가 없으며, ground_truth의 내용을 반영한 문서가 존재하지 않으므로 정밀도는 0입니다.",
+        "retrieval_recall_reason": "Retrieved documents do not include any items that match the ground truth regarding promotion restrictions.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-7",
+        "question": "특별승진이 가능한 경우와 절차는?",
+        "ground_truth": [
+            "제11조 (특별승진) 원장은 연구원 발전에 특별한 공이 있다고 인정되는 자에 대하여, 별표 제2호의 승진자격 기준에 관계없이 인사위원회의 추천을 받아 승진시킬 수 있다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-48",
+                    "title": "가상 공지사항 #7597",
+                    "content": "※ ONEST 메신저의 출장증빙을 활용",
+                    "body_path": "/virtual/handy/048/000005mmg_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2597",
+                    "post_date": "2023-06-24T10:04:00",
+                    "modify_date": "2023-06-24T10:04:00"
+                },
+                {
+                    "brd_name": "가상게시판-18",
+                    "title": "가상 공지사항 #9117",
+                    "content": "* 연구비 : KRISS에서 연구개발비 부담",
+                    "body_path": "/virtual/handy/018/000005q9u_0_body_chunk_0003",
+                    "poster_name": "가상작성자-4117",
+                    "post_date": "2023-02-19T16:50:00",
+                    "modify_date": "2023-02-19T16:50:00"
+                },
+                {
+                    "brd_name": "가상게시판-31",
+                    "title": "가상 공지사항 #3530",
+                    "content": "* 연구비 : KRISS에서 연구개발비 부담",
+                    "body_path": "/virtual/handy/031/000005w1t_0_body_chunk_0003",
+                    "poster_name": "가상작성자-3530",
+                    "post_date": "2020-02-06T10:25:00",
+                    "modify_date": "2020-02-06T10:25:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 특별승진 및 관련 절차에 대한 내용이 포함되어 있지 않음.",
+        "retrieval_recall_reason": "retrieved_docs에는 ground_truth에서 요구하는 특별승진과 관련된 정보가 전혀 포함되어 있지 않음.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-8",
+        "question": "부칙에 따라 요령이 최초로 시행된 일자는 언제인가?",
+        "ground_truth": [
+            "부칙 ① (시 행 일) 이 요령은 1986년 1월 1일부터 시행한다."
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-41",
+                    "title": "가상 공지사항 #9340",
+                    "content": "시행일자 : 2026.01.12.\n\n수 신 : 전 부서장\n\n제 목 : 인사발령(위원회 임면: 우대제도 TF)\n\n붙임과 같이 우대제도 TF 위원을 임면함.\n\n붙임 우대제도 TF 위원 임면 내용 1부. 끝.",
+                    "body_path": "/virtual/handy/041/000005viw_0_body_chunk_0001",
+                    "poster_name": "가상작성자-4340",
+                    "post_date": "2022-03-18T10:59:00",
+                    "modify_date": "2022-03-18T10:59:00"
+                },
+                {
+                    "brd_name": "가상게시판-26",
+                    "title": "가상 공지사항 #5475",
+                    "content": "문서번호: 인적자원실-56\n\n시행일자: 2026.1.15.\n\n수 신: 전 부서장\n\n제 목: 인사발령(의원면직)\n\n기획본부 홍보실 행정원 권혜진(01304)\n\n원에 의하여 그 직을 면함.\n\n2026.1.26.부. 끝.",
+                    "body_path": "/virtual/handy/026/000005vkm_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0475",
+                    "post_date": "2021-09-12T13:22:00",
+                    "modify_date": "2021-09-12T13:22:00"
+                },
+                {
+                    "brd_name": "가상게시판-08",
+                    "title": "가상 공지사항 #7507",
+                    "content": "문서번호: 인적자원실-111\n\n시행일자: 2026.1.26.\n\n수 신: 전 부서장\n\n제 목: 인사발령(위원회 임면: 교정기술위원회)\n\n붙임과 같이 교정기술위원회 위원을 임면함.\n\n붙임 교정기술위원회 위원 임면 내용 1부. 끝.",
+                    "body_path": "/virtual/handy/008/000005vqm_0_body_chunk_0001",
+                    "poster_name": "가상작성자-2507",
+                    "post_date": "2021-04-07T15:23:00",
+                    "modify_date": "2021-04-07T15:23:00"
+                }
+            ],
+            "krule": []
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.0,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "retrieved_docs에는 관련된 문서가 없어서, 관련된 문서의 수가 0입니다. 따라서 정밀도는 0입니다.",
+        "retrieval_recall_reason": "retrieved_docs는 1986년 1월 1일이라는 시행일자를 포함하고 있지 않으며, ground_truth에서 요구하는 정보를 누락하였기 때문입니다.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "100128656-v1.testset-9",
+        "question": "승진심사 절차 및 시기는 어디에서 정하는가?",
+        "ground_truth": [
+            "제4조 ② 승진심사절차 및 시기는 별표 제1호에 의한다.",
+            "[별표1] 승진심사 절차 및 시기"
+        ],
+        "retrieved_docs": {
+            "hr": [],
+            "board": [
+                {
+                    "brd_name": "가상게시판-01",
+                    "title": "가상 공지사항 #8750",
+                    "content": "표준연",
+                    "body_path": "/virtual/handy/001/000005vnh_0_body_chunk_0001",
+                    "poster_name": "가상작성자-3750",
+                    "post_date": "2024-04-01T14:22:00",
+                    "modify_date": "2024-04-01T14:22:00"
+                },
+                {
+                    "brd_name": "가상게시판-07",
+                    "title": "가상 공지사항 #5856",
+                    "content": "안녕하세요",
+                    "body_path": "/virtual/handy/007/000005vl6_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0856",
+                    "post_date": "2018-11-19T16:10:00",
+                    "modify_date": "2018-11-19T16:10:00"
+                },
+                {
+                    "brd_name": "가상게시판-13",
+                    "title": "가상 공지사항 #5762",
+                    "content": "안녕하세요",
+                    "body_path": "/virtual/handy/013/000005vqc_0_body_chunk_0001",
+                    "poster_name": "가상작성자-0762",
+                    "post_date": "2020-07-25T12:49:00",
+                    "modify_date": "2020-07-25T12:49:00"
+                }
+            ],
+            "krule": [
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "승진요령 > 제4 조(승진일 및 심사절차) ①승진은 승진대상자의 경력평정 기준일에 실시한다. <신설 1987.08.31",
+                    "revcd": "RV235",
+                    "revcha": null,
+                    "promul_dt": "2023-05-19",
+                    "start_dt": "2023-05-19",
+                    "upload_dt": "2023-05-19 09:00",
+                    "download_file_url": "/dummy/승진요령.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "1-1"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "규 정 집 > 제 2 편 행정일반 > 제 1 장 인사부문 > 승 진 요 령 > 제4 조(승진일 및 심사절차) ①승진은 승진대상자의 경력평정 기준일에 실시한다. <신설 1987.8.31",
+                    "revcd": "RV194",
+                    "revcha": null,
+                    "promul_dt": "2019-04-02",
+                    "start_dt": "2019-04-02",
+                    "upload_dt": "2019-04-02 09:00",
+                    "download_file_url": "/dummy/원규총괄_전문_KRISS_규정집(2016년_2월).pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "249-249"
+                },
+                {
+                    "title": null,
+                    "state_name": "운영중",
+                    "text": "방사선안전관리규정 > 제3 장 구매",
+                    "revcd": "RV185",
+                    "revcha": null,
+                    "promul_dt": "2018-12-14",
+                    "start_dt": "2018-12-14",
+                    "upload_dt": "2018-12-14 09:00",
+                    "download_file_url": "/dummy/방사선안전관리규정.pdf.pdf",
+                    "bbscd": "KRULE",
+                    "writer": "시스템",
+                    "dept_name": "표준과학연구원",
+                    "page_range": "6-7"
+                }
+            ]
+        },
+        "generated_answer": null,
+        "retrieval_precision": 0.3333,
+        "retrieval_recall": 0.0,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null,
+        "retrieval_precision_reason": "총 6개의 문서가 검색되었고, 그 중 2개(승진요령-제4조, 규정집-제4조)가 관련이 있어 precision은 2/6 = 0.3333입니다.",
+        "retrieval_recall_reason": "retrieved_docs does not cover any of the ground truth items regarding the promotion review procedures or timing.",
+        "generation_faithfulness_reason": null,
+        "generation_factual_correctness_reason": null
+    },
+    {
+        "idx": "average",
+        "retrieval_precision": 0.1583,
+        "retrieval_recall": 0.175,
+        "generation_faithfulness": null,
+        "generation_factual_correctness": null
+    }
+]
